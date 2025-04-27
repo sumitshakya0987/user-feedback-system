@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000', // Backend runs on 5000
+  baseURL: 'https://user-feedback-system-zeta.vercel.app/', // Backend runs on 5000
 });
 
 // Submit feedback
