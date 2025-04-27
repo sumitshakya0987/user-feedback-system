@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API = axios.create({
+
+export const axiosInstance = axios.create({
   baseURL: 'https://user-feedback-system.onrender.com', // Backend runs on 5000
 });
 

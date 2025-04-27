@@ -1,5 +1,6 @@
 import { useState } from "react";
-import axios from "axios";
+
+import { axiosInstance } from "../services/api";
 
 function FeedbackForm() {
   const [formData, setFormData] = useState({
@@ -20,7 +21,8 @@ function FeedbackForm() {
     e.preventDefault();
     try {
       console.log('formdata',formData);
-      await axios.post('http://localhost:5000/feedback', formData);
+      // await axios.post('http://localhost:5000/feedback', formData);
+      await axiosInstance.post('/feedback',formData);
       alert('Feedback submitted successfully!');
       setFormData({ username: "", email: "", feedback: "", category: "" });
     } catch (error) {

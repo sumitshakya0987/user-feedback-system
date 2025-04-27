@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+
+import { axiosInstance } from '../services/api';
 
 const Dashboard = () => {
   const [feedbacks, setFeedbacks] = useState([]);
@@ -10,7 +11,7 @@ const Dashboard = () => {
 
   const fetchFeedbacks = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/feedback');
+      const res = await axiosInstance.get('/feedback');
       setFeedbacks(res.data);
     } catch (error) {
       console.error('Error fetching feedbacks:', error);
