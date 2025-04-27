@@ -26,37 +26,45 @@ iii.Responsive Design**: The app is designed to be responsive, working seamlessl
 for client:
 
 1. cd to folder :
-bash
+```bash
    cd client
-
+```
 2. Install dependencies:
-bash
+```bash
    npm install
-
+```
 3. Run the frontend:
-bash
+```bash
    npm run dev
 
-
+```
 for backend :
 1. cd to folder :
-bash
+```bash
    cd server
-
+```
 2. install dependencies: 
-bash
+```bash
    npm install
-
+```
 3. add .env at root of backend folder with these attributes :
-bash
+```bash
    MONGO_URI=
    PORT=5000
-
+```
 4. Run the backend :
-bash
+```bash
    npm run dev
 
 npm run dev
+```
+
+5.screeshots:
+![image](https://github.com/user-attachments/assets/450615ea-0d3f-47ab-89bc-cfb0b50c194f)
+![image](https://github.com/user-attachments/assets/b5744c87-fc69-4949-91c0-7bfe63600364)
+![image](https://github.com/user-attachments/assets/ca098f01-83e0-47e1-8d71-8a07f7ebb5e6)
+
+
 
 
 
