@@ -17,13 +17,13 @@ iii.Responsive Design**: The app is designed to be responsive, working seamlessl
 - MongoDB: To store the feedback submissions securely.
 
 4.Installation Instructions
--Inside client :
+#Inside client :
 npm install axios react-router-dom
 npm run dev
--For Tailwind CSS :
+#For Tailwind CSS :
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
--Install Packages In Backend (server):
+#Install Packages In Backend (server):
 npm install express mongoose cors dotenv
 npm install nodemon --save-dev
 "scripts": {
