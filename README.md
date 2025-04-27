@@ -22,37 +22,40 @@ iii.Responsive Design**: The app is designed to be responsive, working seamlessl
 - MongoDB: To store the feedback submissions securely.
 <br>
 4.Installation Instruction:
+
 for client:
 
 1. cd to folder :
 bash
-cd client
+   cd client
 
 2. Install dependencies:
 bash
-npm install
+   npm install
 
 3. Run the frontend:
 bash
-npm run dev
+   npm run dev
 
 
 for backend :
 1. cd to folder :
 bash
-cd server
+   cd server
 
 2. install dependencies: 
 bash
-npm install
+   npm install
 
 3. add .env at root of backend folder with these attributes :
 bash
-MONGO_URI=
-PORT=5000
+   MONGO_URI=
+   PORT=5000
 
 4. Run the backend :
 bash
+   npm run dev
+
 npm run dev
 
 
