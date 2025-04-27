@@ -14,8 +14,8 @@ iii.Responsive Design**: The app is designed to be responsive, working seamlessl
 - 2.Express.js.: Web framework for building the backend API.
 <br>
 - Frontend:
-- 1.React.js**: JavaScript library for building the user interface.
-- 2.Tailwind CSS**: Utility-first CSS framework for styling the app.
+- 1.React.js: JavaScript library for building the user interface.
+- 2.Tailwind CSS: Utility-first CSS framework for styling the app.
   <br>
 - Database:
   <br>
