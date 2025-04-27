@@ -21,56 +21,39 @@ iii.Responsive Design**: The app is designed to be responsive, working seamlessl
   <br>
 - MongoDB: To store the feedback submissions securely.
 <br>
-4.Installation Instructions
-  <br>
-#Inside client :
-<br>
-npm install axios react-router-dom
-<br>
-npm run dev
-<br>
-#For Tailwind CSS :
-<br>
-npm install -D tailwindcss postcss autoprefixer
-<br>
-npx tailwindcss init -p
-<br>
-#Install Packages In Backend (server):
-<br>
-npm install express mongoose cors dotenv
-<br>
-npm install nodemon --save-dev
-<br>
-"scripts": {
-  "start": "nodemon server.js"
+4.Installation Instruction:
+for client:
 
-}<br>
+1. cd to folder :
+bash
 cd client
-<br>
-npm install axios
 
-<br>
-npm install cors
-<br>
--Now for Run application 
-<br>
--backend
-<br>
+2. Install dependencies:
+bash
+npm install
+
+3. Run the frontend:
+bash
+npm run dev
+
+
+for backend :
+1. cd to folder :
+bash
 cd server
-<br>
-npm install -g nodemon
-<br>
+
+2. install dependencies: 
+bash
 npm install
-<br>
-npm run dev
-<br>
--frontend
-<br>
-cd client
-<br>
-npm install
-<br>
-npm run dev
-<br>
+
+3. add .env at root of backend folder with these attributes :
+bash
+MONGO_URI=
+PORT=5000
+
+4. Run the backend :
+bash
+npm run dev
+
 
 
